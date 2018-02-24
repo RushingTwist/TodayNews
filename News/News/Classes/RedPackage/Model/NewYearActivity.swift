@@ -44,16 +44,16 @@ struct NewYearActivity: HandyJSON {
 struct CardData: HandyJSON {
     var new_year_count: Int = 0
     var available_card_count: Int = 0
-    var bonus_win: String!
+    var bonus_win: String = ""
     var winner_count: Int = 0
     var win_rank: Int = 0
     var cards_status: Int = 0
-    var dest_card_list: String!
-    var bonus_init: String!
-    var ask_info: String!
-    var bonus_top_user: String!
+    var dest_card_list: String = ""
+    var bonus_init: String = ""
+    var ask_info: String = ""
+    var bonus_top_user: String = ""
     var card_gold_user_limit: Int = 0
-    var drop_info: String!
+    var drop_info: String = ""
 }
 
 struct ShareInfo: HandyJSON {
@@ -68,6 +68,23 @@ struct ShareInfo: HandyJSON {
     
 }
 
+struct Shengxiao: HandyJSON {
+    var title: String = ""
+    var big: String = ""
+    var small = ""
+}
+
 struct MoreActivity: HandyJSON {
     
+}
+
+/// 增加抽卡次数
+struct NewYearTask: HandyJSON {
+    
+    var schema_url = ""
+    var task_bonus_count = ""
+    var task_desc = ""
+    var task_id = ""
+    var task_status = ""
+    var task_sub_desc = ""
 }
