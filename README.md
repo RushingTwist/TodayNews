@@ -2,7 +2,9 @@
 
 [![Build Status](https://travis-ci.org/hrscy/TodayNews.svg?branch=master)](https://travis-ci.org/hrscy/TodayNews) ![swift3.1](https://img.shields.io/badge/language-swift%204-orange.svg)
 
-# 最新代码已经上传，还有部分功能未完成，后续会继续更新...
+# 视频链接地址请看 **[腾讯课堂](https://ke.qq.com/course/281908#tuin=1c8f38f4)** ，本系列视频实战教程需要有 Swift 语言基础，并且有过 iOS 开发相关经验。
+
+# 功能截图。
 
 ![](asset/11.gif)
 ![](asset/10.gif)
@@ -18,19 +20,9 @@
 
 # 项目环境
 
-- Xcode 9.2
-- Swift 4
+- Xcode 9.3
+- Swift 4.1
 - iOS 11
-
-# 下方二维码是视频链接地址。
-
-![](asset/video.png)
-
-# **提示：**
-
-# 本系列视频实战教程需要有 Swift 语言基础，并且有过 iOS 开发相关经验。
-
-# 另外视频需要支付一部分费用，购买视频的小伙伴可以加入我的 QQ  群，我会帮有问题的小伙伴解决问题~。
 
 # 最早分支代码请看 [TodayNews-old](https://github.com/hrscy/TodayNews/tree/TodayNews-old)，仅供参考。
 
@@ -41,7 +33,7 @@
 ### [617-正则表达式匹配用户名话题和链接](http://player.youku.com/embed/XMzI1NjI1NjEyNA==)
 
 ## 新增接口文档
-[接口文档](https://github.com/hrscy/TodayNews/tree/master/todayNews-docs)
+[接口文档](https://github.com/hrscy/TodayNews/tree/master/news-docs)
 
 接口文档使用的是 [MKDocs](http://www.mkdocs.org/)，具体安装方法以及使用可以参考官网的介绍。
 
@@ -50,7 +42,7 @@
 - [x]   首页
 - [x]   查看图文详情（点击第一个 cell）
 - [x]   保存图片功能
-- [x]   添加新闻分类界面
+- [x]   添加频道界面
 - [x]   问答界面
 - [x]   视频界面
 - [x]   视频详情界面
@@ -69,6 +61,7 @@
 - [x]  设置界面
 - [x]  离线下载界面
 
+![](asset/zan.png)
 
 # 视频目录
 1. 项目搭建
